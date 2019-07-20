@@ -1,5 +1,5 @@
 .welcome {
-    background-image: url(https://github.com/audreynjiraini/Independent-Project-3/blob/master/assets/backgrounds/h_img.jpg?raw=true);
+    background-image: url(https://raw.githubusercontent.com/audreynjiraini/Independent-Project-3/master/assets/backgrounds/h_img.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -22,7 +22,7 @@
     padding: 3%;
 }
 .services {
-    background-image: url(https://github.com/audreynjiraini/Independent-Project-3/blob/master/assets/backgrounds/s_image.jpg?raw=true);
+   background-image: url(https://raw.githubusercontent.com/audreynjiraini/Independent-Project-3/master/assets/backgrounds/s_image.jpg);
     background-size: cover;
     background-position: fixed;
     background-repeat: no-repeat;
@@ -31,5 +31,40 @@
 }
 .what-we-do {
     text-align: center;
-    padding: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.portfolio {
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.col-md-3 {
+    padding-right: 20%;
+}
+.contact-us {
+    background-image: url(https://raw.githubusercontent.com/audreynjiraini/Independent-Project-3/master/assets/backgrounds/c_image.jpg);
+    background-size: cover;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 3%;
+    color: white;
+}
+input {
+    width: 38%;
+    margin-left: 2%;
+    margin-right: 2%;
+    background: transparent;
+}
+#message {
+    background: transparent;
+}
+::placeholder {
+    color: white;
+    padding-left: 2%;
 }
