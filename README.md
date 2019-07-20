@@ -7,7 +7,7 @@ By Audrey Njiraini
 This week's task was to recreate the Delani Studios website. 
 
 ## Setup/Installation Requirements
-* You can view the page at https://audreynjiraini.github.io/Independent-Project-3/index.html/
+* You can view the page at https://audreynjiraini.github.io/Independent-Project-3/
 
 ## Technologies Used
 <ul>
