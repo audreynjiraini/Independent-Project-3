@@ -17,6 +17,8 @@ $(document).ready(function(){
         $("#hidden3").slideToggle("slow");
     });
 
+    
+    $(document).ready(function(){
     $("#project4").mouseenter(function(){
       $("#overlay4").show();
     }).mouseleave(function(){
@@ -40,12 +42,14 @@ $(document).ready(function(){
     }).mouseleave(function(){
         $("#overlay1").hide();
     });
+});
 
+$(document).ready(function(){
     $("#project5").mouseenter(function(){
         $("#overlay5").show();
-      }).mouseleave(function(){
+    }).mouseleave(function(){
         $("#overlay5").hide();
-      });
+    });
   
     $("#project6").mouseenter(function(){
         $("#overlay6").show();
@@ -64,4 +68,5 @@ $(document).ready(function(){
     }).mouseleave(function(){
         $("#overlay8").hide();
     });
+});
 });
