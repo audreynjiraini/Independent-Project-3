@@ -33,18 +33,22 @@
     text-align: center;
     padding-top: 3%;
     padding-bottom: 3%;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+#hidden1, #hidden2, #hidden3 {
+    display: none;
 }
 .portfolio {
     text-align: center;
-    padding-top: 3%;
-    padding-bottom: 3%;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 8%;
+    padding-right: 8%;
 }
-.col-md-3 {
-    padding-right: 20%;
+.col-md-3 img {
+    margin: 0.5%;
+    width: 100%;
 }
 .contact-us {
     background-image: url(https://raw.githubusercontent.com/audreynjiraini/Independent-Project-3/master/assets/backgrounds/c_image.jpg);
@@ -82,4 +86,16 @@ input {
 }
 h6 {
     font-size: x-small;
+}
+.hidden1, .hidden2, .hidden3 {
+    text-align: center;
+}
+.hidden {
+    margin: 15%;
+    text-align: center;
+}
+button {
+    margin-bottom: 1%;
+    margin-left: 65%;
+    padding-bottom: 1%;
 }
