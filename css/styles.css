@@ -1,3 +1,6 @@
+body {
+    font-family: 'Crete Round', serif;
+}
 .welcome {
     background-image: url(https://raw.githubusercontent.com/audreynjiraini/Independent-Project-3/master/assets/backgrounds/h_img.jpg);
     background-size: cover;
@@ -96,7 +99,7 @@ h6 {
 }
 button {
     margin-bottom: 1%;
-    margin-left: 65%;
+    margin-left: 50%;
     padding-bottom: 1%;
 }
 #overlay1, #overlay2, #overlay3, #overlay4, #overlay5, #overlay6, #overlay7, #overlay8 {
