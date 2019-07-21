@@ -77,7 +77,7 @@ $(document).ready(function(){
         var email = $("input#email").val();
         var message = $("textarea#message").val();
         if($("input#name").val() && $("input#email").val() && $("textarea#message").val() !== "") {
-            alert(name + ", we have recieved your message. Thank you for your feedback.");
+            alert(name + ", we have recieved your message. Thank you for reaching out to us.");
         } else {
             alert("Please enter correct information on the appropriate fields and try again.");
         };
