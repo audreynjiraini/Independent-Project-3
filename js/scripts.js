@@ -7,15 +7,30 @@ $(document).ready(function(){
     
     $(".hide1").click(function(){
       $("#hidden1").slideToggle("slow");
+      $(".hide1").slideToggle("slow");
     });
+    $("#hidden1").click(function(){
+        $(".hide1").slideToggle("slow");
+        $("#hidden1").hide();
+      });
 
-    $(".hide2").click(function(){
+      $(".hide2").click(function(){
         $("#hidden2").slideToggle("slow");
-    });
+        $(".hide2").slideToggle("slow");
+      });
+      $("#hidden2").click(function(){
+          $(".hide2").slideToggle("slow");
+          $("#hidden2").hide();
+        });
 
-      $(".hide3").click(function(){
-        $("#hidden3").slideToggle("slow");
-    });
+        $(".hide3").click(function(){
+            $("#hidden3").slideToggle("slow");
+            $(".hide3").slideToggle("slow");
+          });
+          $("#hidden3").click(function(){
+              $(".hide3").slideToggle("slow");
+              $("#hidden3").hide();
+            });
 
     
     $(document).ready(function(){
