@@ -32,10 +32,7 @@ This landing page consists of 7 sections
 On the contact form, the user enters their name, email address and their message. If all fields have been filled out correctly, the user receives an alert informing them that their message has been received. If the information entered is not valid, the user receives an alert telling them to confirm the informatin is correct and try again.
 
 ## Known Bugs
-<ul>
-    <li>Mail chimp API not functional</li>
-    <li>The site is not responsive on all devices</li>
-</ul>
+No known bugs
 
 ## Contact Information
 If you need clarification on any aspect, feel free to reach me on my email at audreynjiraini@gmail.com
